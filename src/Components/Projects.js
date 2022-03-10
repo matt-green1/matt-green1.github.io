@@ -3,6 +3,7 @@ import { Header, Segment, Grid, Image } from "semantic-ui-react";
 import lifeletter from "../images/projects_images/lifeletter_static.png";
 import quiz from "../images/projects_images/quiz_still.png";
 import tamo from "../images/projects_images/tamo_still.png";
+import space from "../images/projects_images/space_still.png";
 import javascript from "../images/projects_images/tech_logos/javascript.png";
 import rails from "../images/projects_images/tech_logos/rails.png";
 import react from "../images/projects_images/tech_logos/react.png";
@@ -14,6 +15,48 @@ const Projects = () => {
       <Segment id="projectcontainer">
         <Grid divided="vertically" id="projectgrid" stackable={true}>
           <Grid.Row columns={3} id="projectrow">
+            <Grid.Column className="projectcolumn">
+              <Image src={space} centered={true} id="tamoimage" />
+              <Header as="h2" className="projecttitle">
+                Space Station Tracker
+              </Header>
+              <p className="projectblurb">
+                Tracks position of the ISS in a real time, 3D rendering. Users
+                can enter zip code to find next available sighting times. Uses
+                OpenStreetMap API for zip code search and scrapes Nasa sighting
+                data.
+              </p>
+              <Grid divided="vertically">
+                <Grid.Row columns={2} className="techiconrow">
+                  <Grid.Column className="techicons">
+                    <Image src={react} alt="react" />
+                  </Grid.Column>
+                  {/* <Grid.Column className="techicons">
+                    <Image src={rails} alt="rails" />
+                  </Grid.Column> */}
+                </Grid.Row>
+              </Grid>
+              <div className="projectdiv">
+                <a
+                  href="https://www.whereisthespacestation.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="projectlink"
+                >
+                  Live Site{" "}
+                </a>
+                <span className="linkdivider">|</span>
+                <a
+                  href="https://github.com/kylejb/space-station-tracker"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="projectlink"
+                >
+                  {" "}
+                  Github
+                </a>
+              </div>
+            </Grid.Column>
             <Grid.Column className="projectcolumn">
               <Image src={lifeletter} alt="lifeletter" id="lifeletterimage" />
               <Header as="h2" className="projecttitle">
@@ -95,48 +138,6 @@ const Projects = () => {
                 <span className="linkdivider">|</span>
                 <a
                   href="https://github.com/matt-green1/overunder_frontend"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="projectlink"
-                >
-                  {" "}
-                  Github
-                </a>
-              </div>
-            </Grid.Column>
-            <Grid.Column className="projectcolumn">
-              <Image src={tamo} centered={true} id="tamoimage" />
-              <Header as="h2" className="projecttitle">
-                Flatogatchi
-              </Header>
-              <p className="projectblurb">
-                Virtual pet app inspired by the 90's-famous Tamagotchi toys.
-                Users can choose a monster type to adopt and name. Once adopted
-                they can save its progress as they feed, discipline, and train
-                it to alter its attributes and mood.
-              </p>
-              <Grid divided="vertically">
-                <Grid.Row columns={2} className="techiconrow">
-                  <Grid.Column className="techicons">
-                    <Image src={javascript} alt="javascript" />
-                  </Grid.Column>
-                  <Grid.Column className="techicons">
-                    <Image src={rails} alt="rails" />
-                  </Grid.Column>
-                </Grid.Row>
-              </Grid>
-              <div className="projectdiv">
-                <a
-                  href="https://www.youtube.com/watch?v=_1SBHhtt6L4&ab_channel=MatthewGreen"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="projectlink"
-                >
-                  Demo{" "}
-                </a>
-                <span className="linkdivider">|</span>
-                <a
-                  href="https://github.com/brandongubitosa/FlatoGochi_FrontEnd"
                   target="_blank"
                   rel="noreferrer"
                   className="projectlink"
