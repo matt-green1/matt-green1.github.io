@@ -90,9 +90,10 @@ body {
     font-family: "National2-Black";
     font-size: 55px;
     color: #27305e;
-    padding: 30px 0px 0px 50px;
+    padding: 30px 0px 0px 0px;
     margin-bottom: 0px;
-    text-align: start;
+    display: flex;
+    justify-content: center;
   }
 }
 
@@ -784,7 +785,7 @@ img.techimage {
   box-shadow: 2px 2px 6px grey;
 }
 
-#tamoimage {
+#spaceimage {
   border-radius: 8px;
   box-shadow: 2px 2px 6px grey;
 }
@@ -798,7 +799,11 @@ body::after {
   z-index: -1;
   content: url("./images/projects_images/lifeletter.gif")
     url("./images/projects_images/quiz.gif")
-    url("./images/projects_images/tamo.gif");
+    url("./images/projects_images/space.gif");
+}
+
+#spaceimage:hover {
+  content: url("./images/projects_images/space.gif");
 }
 
 #lifeletterimage:hover {
@@ -807,10 +812,6 @@ body::after {
 
 #quizimage:hover {
   content: url("./images/projects_images/quiz.gif");
-}
-
-#tamoimage:hover {
-  content: url("./images/projects_images/tamo.gif");
 }
 
 .ui.list .list > a.item,
