@@ -29,9 +29,6 @@ const Projects = () => {
                   <Grid.Column className="techicons">
                     <Image src={react} alt="react" />
                   </Grid.Column>
-                  {/* <Grid.Column className="techicons">
-                    <Image src={rails} alt="rails" />
-                  </Grid.Column> */}
                 </Grid.Row>
               </Grid>
               <div className="projectdiv">
