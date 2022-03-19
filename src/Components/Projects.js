@@ -2,7 +2,6 @@ import React from "react";
 import { Header, Segment, Grid, Image } from "semantic-ui-react";
 import lifeletter from "../images/projects_images/lifeletter_static.png";
 import quiz from "../images/projects_images/quiz_still.png";
-import tamo from "../images/projects_images/tamo_still.png";
 import space from "../images/projects_images/space_still.png";
 import javascript from "../images/projects_images/tech_logos/javascript.png";
 import rails from "../images/projects_images/tech_logos/rails.png";
@@ -16,7 +15,7 @@ const Projects = () => {
         <Grid divided="vertically" id="projectgrid" stackable={true}>
           <Grid.Row columns={3} id="projectrow">
             <Grid.Column className="projectcolumn">
-              <Image src={space} centered={true} id="tamoimage" />
+              <Image src={space} centered={true} id="spaceimage" />
               <Header as="h2" className="projecttitle">
                 Space Station Tracker
               </Header>
