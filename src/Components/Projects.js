@@ -1,9 +1,8 @@
 import React from "react";
 import { Header, Segment, Grid, Image } from "semantic-ui-react";
-import lifeletter from "../images/projects_images/lifeletter_static.png";
+import lifeletter from "../images/projects_images/lifeletter_still.png";
 import quiz from "../images/projects_images/quiz_still.png";
 import space from "../images/projects_images/space_still.png";
-import javascript from "../images/projects_images/tech_logos/javascript.png";
 import rails from "../images/projects_images/tech_logos/rails.png";
 import react from "../images/projects_images/tech_logos/react.png";
 import zapier from "../images/projects_images/tech_logos/zapier.png";
@@ -20,10 +19,10 @@ const Projects = () => {
                 Space Station Tracker
               </Header>
               <p className="projectblurb">
-                Tracks position of the ISS in a real time, 3D rendering. Users
-                can enter zip code to find next available sighting times. Uses
-                OpenStreetMap API for zip code search and scrapes Nasa sighting
-                data.
+                Web App that tracks the position of the ISS in a real time, 3D
+                rendering. Users can enter zip code to find next available
+                sighting times at their location. Uses OpenStreetMap API for zip
+                code search and scrapes Nasa sighting data.
               </p>
               <Grid divided="vertically">
                 <Grid.Row columns={2} className="techiconrow">
