@@ -299,6 +299,10 @@ div a.active {
     margin: 0px 30px 0px 30px;
     transform: scale(0.8);
   }
+
+  .shape {
+    transform: scale(1.05);
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1025px) {
@@ -318,6 +322,10 @@ div a.active {
   #photocolumn {
     margin: 0px 30px 0px 30px;
     transform: scale(0.8);
+  }
+
+  .shape {
+    transform: scale(1.05);
   }
 }
 
@@ -341,7 +349,6 @@ div a.active {
 
   #photocolumn {
     margin: 0px 30px 0px 30px;
-    transform: scale(0.8);
   }
 }
 
