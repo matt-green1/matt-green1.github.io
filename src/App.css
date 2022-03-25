@@ -257,6 +257,11 @@ div a.active {
   #photocolumn {
     margin: 0px 30px 0px 30px;
   }
+
+  #pigspan {
+    position: absolute;
+    left: 80%;
+  }
 }
 
 @media screen and (min-width: 1026px) and (max-width: 1214px) {
@@ -280,6 +285,11 @@ div a.active {
 
   .shape {
     transform: scale(1.05);
+  }
+
+  #pigspan {
+    position: absolute;
+    left: 80%;
   }
 }
 
@@ -305,6 +315,11 @@ div a.active {
   .shape {
     transform: scale(1.05);
   }
+
+  #pigspan {
+    position: absolute;
+    left: 80%;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -329,6 +344,12 @@ div a.active {
   #photocolumn {
     margin: 0px 30px 0px 30px;
   }
+
+  #pigspan {
+    position: absolute;
+    left: 73%;
+    top: -2%;
+  }
 }
 
 #blurbcolumn {
@@ -338,11 +359,6 @@ div a.active {
 #pigemoji {
   font-size: 17px;
   margin-left: -4px;
-}
-
-#pigspan {
-  position: absolute;
-  left: 80%;
 }
 
 .ui.toggle.checkbox.pigtoggle {
