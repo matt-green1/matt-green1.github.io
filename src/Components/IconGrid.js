@@ -7,7 +7,7 @@ import { useState } from "react";
 
 const IconGrid = () => {
   const [copied, setCopied] = useState(false);
-  const [emailValue, setEmailValue] = useState("magreen118@gmail.com");
+  const [emailValue] = useState("magreen118@gmail.com");
 
   const emailCopyHelper = () => {
     setCopied(true);
