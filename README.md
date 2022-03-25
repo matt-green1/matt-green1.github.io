@@ -3,7 +3,6 @@ Matt Green's Portfolio. Say hi on [LinkedIn](https://www.linkedin.com/in/matthew
 Built with React & Semantic UI
 
 Fonts used:
-
 - National-Black
 - Recoleta-Regular
 

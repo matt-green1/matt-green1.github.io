@@ -179,8 +179,6 @@ body {
 
 /* ------------ Nav section below ------------- */
 
-/* Deals with different screen heights for projects */
-
 @media screen and (max-width: 1020px) {
   #nav {
     display: none;
@@ -241,26 +239,6 @@ div a.active {
 }
 
 /* ------- Blurb section below ---------- */
-
-/* .ui.grid>[class*="three column"].row {
-  padding-top: 2984px 0!important;
-} */
-
-/* @media screen and (min-width: 1215px) {
-  
-}
-
-@media screen and (min-width: 1026px) and (max-width: 1214px) {
-  
-}
-
-@media screen and (min-width: 768px) and (max-width: 1025px) {
-  
-}
-
-@media screen and (max-width: 767px) {
-  
-} */
 
 @media screen and (min-width: 1215px) {
   #greeting {
@@ -559,13 +537,13 @@ div a.active {
 
 #blobslider::-webkit-slider-thumb {
   border: 1px solid #27305e;
-  height: 12px;
-  width: 18px;
+  height: 21px;
+  width: 37px;
   border-radius: 30px;
   background: #ffffff;
   cursor: pointer;
   -webkit-appearance: none;
-  margin-top: -5px;
+  margin-top: -9px;
 }
 
 #blobslider:focus::-webkit-slider-runnable-track {
@@ -636,9 +614,16 @@ div a.active {
 
 /* --------------- Project container below ---------------- */
 
-#projects {
-  /* formerly 275 */
-  padding-top: 330px;
+@media screen and (max-width: 1020px) {
+  #projects {
+    padding-top: 0px;
+  }
+}
+
+@media screen and (min-width: 1021px) {
+  #projects {
+    padding-top: 330px;
+  }
 }
 
 @media screen and (max-width: 937px) and (min-width: 767px) {
